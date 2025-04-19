@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #F2EFE7;
+    background-color: #9ACBD0;
 }
 
 .navbar-container {
@@ -39,7 +39,7 @@ body {
 }
 
 .header {
-    background-color: #F2EFE7;
+    background-color: #9ACBD0;
     height: 100px;
     display: flex;
     justify-content: center;
@@ -61,8 +61,7 @@ body {
     padding: 12px;
     border-radius: 10px;
     gap: 12px;
-    background-color: #48A6A7;
-    /* height: 257px; */
+    background-color: #58b1b2;
 }
 
 .recipe a {
