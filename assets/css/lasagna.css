@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -47,29 +46,42 @@ body {
 
 .main {
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 400px;
-}
-
-.recipe {
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 12px;
-    border-radius: 10px;
-    gap: 12px;
-    background-color: #58b1b2;
+    padding: 20px;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
-.recipe a {
-    font-size: large;
-    text-decoration: none;
-    color: black;
-    font-weight: 600;
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 1000px;
+    flex-wrap: wrap;
 }
 
-.recipe-image {
-    border-radius: 6px;
+.ingredients {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 1000px;
+    flex-wrap: wrap;
+}
+
+.ingredients ul {
+    margin-left: 30px;
+}
+
+.steps {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 1000px;
+    flex-wrap: wrap;
+}
+
+.steps ol {
+    margin-left: 30px;
 }
