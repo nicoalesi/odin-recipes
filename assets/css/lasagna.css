@@ -56,29 +56,38 @@ body {
 
 .description {
     display: flex;
+    flex: 1 1 auto;
     flex-direction: column;
     gap: 8px;
-    width: 1000px;
+    max-width: 1000px;
     flex-wrap: wrap;
 }
 
 .ingredients {
     display: flex;
+    flex: 1 1 auto;
     flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
     gap: 4px;
-    width: 1000px;
+    width: 100%;
+    max-width: 1000px;
     flex-wrap: wrap;
 }
 
 .ingredients ul {
+    display: flex;
+    flex: 1 1 auto;
     margin-left: 30px;
+    flex-direction: column;
 }
 
 .steps {
     display: flex;
+    flex: 1 1 auto;
     flex-direction: column;
     gap: 4px;
-    width: 1000px;
+    max-width: 1000px;
     flex-wrap: wrap;
 }
 
