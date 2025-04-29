@@ -36,6 +36,8 @@ body {
 
 .navbar a {
     margin-left: auto;
+    text-decoration: none;
+    color: black;
 }
 
 .header {
@@ -43,6 +45,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    margin: 10px;
 }
 
 .main {
